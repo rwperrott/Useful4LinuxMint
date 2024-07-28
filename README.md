@@ -81,3 +81,21 @@ _TODO: Complete_
 The Ubuntu Wine versions are always too dated, so the WineHQ stable repo must be added for a decent Wine experience!
 
 _TODO: Complete_
+
+### Github Desktop
+
+Annoyingly, Github don't provide an install for Linux, only for Windows and Mac!
+
+Install using the repo using the `@shiftkey`or `@mwt` script [here](https://github.com/shiftkey/desktop#debianubuntu),
+then run:
+```shell
+sudo apt update && sudo apt install github-desktop
+```
+
+Configuration
+- Options
+  - Advanced
+    Untick "Usage" [] bla
+- Accounts
+  Sign in with Github.com webpage, and ensure that the browse does have excessive security present, so that it works!
+  I prefer the mobile GitHub App for 2FA.
