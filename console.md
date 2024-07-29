@@ -4,7 +4,7 @@
 An encrypted secrets store.
 
 ## → [pass-otp](software/pass-otp.md) 
-An extension for `pass` providing support for OTP token specification and token generation. 
+A pass extension for managing one-time-password (OTP) tokens
 
 ----
 
