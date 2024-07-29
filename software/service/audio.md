@@ -1,14 +1,19 @@
-# Audio Services
+# Audio Service
 
 - These can fail to work because of distro root or /home issues; 
 I had annoying issues with both PulseAudio and PipeWire, including no Audio!
 - Annoyingly audio may break because of bad audio server configuration stored in /home/{user} files!
-- A "JACK output" audio service will only accept audio input at 48000Hz, otherwise no audio!  
+
+## PulseAudio
+A dated audio service, being increasingly replaced by the more powerful PipeWire.
 
 
-- PulseWire replaced PulseAudio, so I doubt that I will add any notes for it.
-    - Ubuntu and Mint (22) have finally switched Mint from PulseAudio to PipeWire.
-    - It has proper BT headset support, without any hacks needed.
+## → [PipeWire](/software/pipewire.md)
+A powerful audio service, which has become the default for Ubuntu and Mint 22.
+It has proper Bluetooth headset support, without the hacks needed by PulseAudio.
 
-## > [PipeWire](../pipewire.md)
-
+## JACK
+This must be provided audio data at 48KHz, otherwise it won't work.
+[PipeWire](/software/pipewire.md) supports this API well.
+e.g. `Audacity` must have a sample rate converter installed, enabled,
+and configured for 48KHz; otherwise it will refuse to play any sound.  

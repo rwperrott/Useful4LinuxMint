@@ -1,10 +1,15 @@
 # Service Software
 
-## → [Wine](software/wine.md)
-Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer
-able to run Windows applications on several POSIX-compliant operating systems,
-such as Linux, macOS, & BSD. Instead of simulating internal Windows logic,
-like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls, on-the-fly.
-This eliminates the performance and memory penalties of other methods
-and allowing you to cleanly integrate Windows applications into your desktop.
+## → [Audio](software/service/virtualisation.md)
+I am only aware of PulseAudio and PipeWire, but their maybe others, 
+other extra audio APIs, like ALSA and JACK. 
 
+## → [Remote Control](software/service/remote-control.md)
+Network services, which may provide a Web UI, or just a network API, used for "server"
+management/monitoring.
+These can be useful for desktop/workstation computers too,
+e.g. allowing easy shutdown it the desktop shell becomes unusable!
+
+## → [Virtualisation](software/service/virtualisation.md)
+Server software, which allows running software in an isolated environment, even different OS,
+or different OS applications.
