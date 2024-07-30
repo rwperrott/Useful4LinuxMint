@@ -1,6 +1,13 @@
 # [Wine](https://www.winehq.org)
 
-The Ubuntu Wine versions are always too dated, so the WineHQ stable repo must be added for a decent WINE experience!
+>Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer
+able to run Windows applications on several POSIX-compliant operating systems,
+such as Linux, macOS, & BSD. Instead of simulating internal Windows logic,
+like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls, on-the-fly.
+This eliminates the performance and memory penalties of other methods
+and allowing you to cleanly integrate Windows applications into your desktop.
+
+The Ubuntu Wine versions are **always** too dated, so the WineHQ stable repo must be added for a decent Wine experience!
 
 ## Following [Ubuntu](https://wiki.winehq.org/Ubuntu) instructions, with some corrections:
 
@@ -35,4 +42,4 @@ The Ubuntu Wine versions are always too dated, so the WineHQ stable repo must be
         ```shell
         sudo apt update && sudo apt install --install-recommends winehq-staging
         ```
-6. Install [WineGUI](wingui.md), to make Wine far easier to manage.
+6. Install [WineGUI](../desktop/wingui.md), to make Wine far easier to manage.
