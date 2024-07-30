@@ -8,7 +8,7 @@ apt-get install qtpass
 ```
 
 It can generate OTP tokens from token specifications, like GitHub provides, but only if:
-- The [pass-otp](pass-otp.md) command/extension to pass was installed, e.g. via `apt`.
+- The [pass-otp](../console/pass-otp.md) command/extension to pass was installed, e.g. via `apt`.
 - The token specification **must** be present in the password field of a password file.
   This is annoying for the `passff` Firefox extension,
   because it can't provide the OTP token if the login is from a different password file,

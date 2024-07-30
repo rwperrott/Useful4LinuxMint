@@ -15,7 +15,7 @@ This must be redone after `mintupgrade` to a new Mint version, because `mintupgr
 
 ## Privacy & Security
 
-- "Password - Ask to save password" - unticked!
+- "Password - Ask to save password" - ensure not ticked!
   Use [PassFF](https://codeberg.org/PassFF/passff) [Firefox extension](https://addons.mozilla.org/firefox/addon/passff) with [QtPass](https://github.com/IJHack/qtpass) [instead!
 
 _TODO: Complete e.g. for Fingerprint Canvas tweaks _
