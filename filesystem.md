@@ -32,6 +32,8 @@
   - A journaling filesystem.
   - It gets really sluggish when a directory contains many thousands of files, at least on Windows, 
 possibly due to MFT file fragmentation when its drive is a hard disk!
+  - *Not recommended for heavy use on Linux*; the OS can freeze when ntfs-3g driver is under high load!
+    - Copilot stopped responding too!!!
 
 ### Sun/Oracle
 - Open[ZFS](https://openzfs.org/wiki/Main_Page) - [GitHub](https://github.com/openzfs/zfs)
@@ -77,13 +79,13 @@ which can be nested:
       and a snapshot will allow consistent backup to another storage device with no need for kludges-like Shadow Copy in
       Windows.
 
-### NTFS Drives Maybe Risky to Use With Linux
-- A Linux tool supposed to fix NTFS disks choked when I attempting to repair a USB NTFS hard disk,
-  so I had to use `CHKDSK` on a Windows machine and to fix it.
-  - Fortunately all the files, recently saved were file afterwards.
-  - This suggests that its use with a Linux machine maybe risky; so I may reformat that drive as BTRFS.
-  - I'd prefer ZFS, but may still want to use it with a Windows machine,
-  and Windows seems to have a capable BTRFS driver.
+### NTFS Drives Are Risky to Use With Linux
+- The ntfs-3g driver can make Linux become completely unresponsive while under a high load;
+this doesn't happen with ZFS or BTRFS drives on Linux! 
+- The Gnome Disks GUI can fit the resulting corruption, after reset and reboot from such an outage,
+so that drive can mount again; this only just reinforced my opinion to no use journaling filesystems!
+  - Fortunately all the files, recently saved were accessible afterwards.
+  - I decided that the best approach was to backup all the data, between freezes, then reformat the drive with BTRFS!
 
 ### Ejecting/unmounting disks
 - The reasons why you have to explicitly eject removable disks are:
