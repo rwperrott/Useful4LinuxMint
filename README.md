@@ -24,7 +24,7 @@ Useful bookmarks and notes for my Linux Mint installs
 
 ---
 
-## [Filesystem]
+## [Filesystems](filesystems.md)
 
 ---
 
@@ -32,7 +32,7 @@ Useful bookmarks and notes for my Linux Mint installs
 
 ### Audio
 
-#### → [Service](/software/service/_audio.md)
+#### → [Services](/software/services/_audio.md)
 
 ---
 
@@ -40,7 +40,7 @@ Useful bookmarks and notes for my Linux Mint installs
 
 ### → [Packaging](software/_packaging.md)
 
-### → [Service](software/_service.md)
+### → [Services](software/_services.md)
 - Includes audio, container and virtualisation (hypervisor/emulation) services.
 
 ### → [Console](software/_console.md)

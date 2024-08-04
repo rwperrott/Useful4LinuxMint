@@ -3,7 +3,7 @@
 
 After upgrading to Mint 22
 - Audio didn't work, wt*!
-- MATE "Sound Preferences" didn't show the proper identity for my motherboard audio hardware, so decided to clean install pipewire, and reinstalls didn't help
+- MATE "Sound Preferences" didn't show the proper identity for my motherboard audio hardware, so decided to clean install Pipewire, and re-installs didn't help!
 - Re-install, service restarts, and reboot; both didn't resolve either issue!  
 
 - Notes:

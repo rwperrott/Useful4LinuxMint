@@ -1,4 +1,4 @@
-# Debian -> Ubunto -> Mint versions
+# Debian -> Ubuntu -> Mint versions
 
 I made this table because it was annoying to keep looking it up and from, especially for Debian mappings!
 - Linux Mint seems to always be based upon an Ubuntu LTS release.
@@ -18,7 +18,7 @@ It was composed from data on these web pages:
 | 09                 | **Stretch**/sid  |                    |                           |                  |               |
 |                    |                  | 16.04              | **Xenial** Xerus (LTS)    |                  |               |
 |                    |                  | 16.10              | Yakkety Yak               |                  |               |
-|                    |                  | 17.04              | Zestyy                    |                  |               |
+|                    |                  | 17.04              | Zesty                     |                  |               |
 |                    |                  | 17.10              | Artful Aardvark           |                  |               |
 | 10                 | **Buster**/sid   |                    |                           |                  |               |
 |                    |                  | 18.04              | **Bionic** Beaver (LTS)   |                  |               |

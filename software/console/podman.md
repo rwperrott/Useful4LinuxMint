@@ -1,5 +1,5 @@
 # podman
 
-The CLI tool for [Podman](../service/container/podman.md)
+The CLI tool for [Podman](../services/container/podman.md)
 
 **TODO: -- flesh out**

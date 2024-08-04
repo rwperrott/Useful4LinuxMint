@@ -18,7 +18,6 @@
   - A family of primitive MSDOS filesystems
   - No support for extended/POSIX directory entry attributes
   - Not journaled.
-  - Easily repairable by Linux.
   - FAT32 is often used to contain hold grub, to load Linux not used.
   - Otherwise, only useful for flash disks up to 32GB, or for trivial data disks.
 - [exFAT](https://en.wikipedia.org/wiki/ExFAT)
@@ -26,14 +25,19 @@
   - Directory record structure optimised for limited flash card data transfer speeds.
   - No support for extended/POSIX directory entry attributes
   - Not journaled.
-  - Easily repairable by Linux.
   - Only useful for data disk needing no integrity protection.
 - [NTFS](https://en.wikipedia.org/wiki/NTFS)
-  - A journaling filesystem.
-  - It gets really sluggish when a directory contains many thousands of files, at least on Windows, 
-possibly due to MFT file fragmentation when its drive is a hard disk!
-  - *Not recommended for heavy use on Linux*; the OS can freeze when ntfs-3g driver is under high load!
-    - Copilot stopped responding too!!!
+  - A journaling filesystem, which has always seemed fussy about dirty directory state, even on Windows!
+  - It gets really sluggish when a directory on a hard disk drive contains many thousands of files, 
+possibly because of MFT file fragmentation!
+  - Apparently, Paragon's [ntfs3](https://docs.kernel.org/filesystems/ntfs3.html) NTFS driver in the Linux Kernel,
+and using an /etc/fstab mount entry with filesystem type `ntfs3`,
+is preferable to allowing the `ntfs-3g` FUSE driver to be used by default.
+  - Sadly I have had an NTFS drives under sustained and heavy IO load completely freeze Linux Mint machines,
+so strongly suggest that BTRFS disk are used in preference to NTFS ones!
+  - An NTFS drive can become unmountable or dirty after a such a freeze; 
+the `Gnome Disks` partition repair seems a reliable fix so far.
+  - I'm wary of Linux console tools for repairing NTFS partitions, because some did make things worse! 
 
 ### Sun/Oracle
 - Open[ZFS](https://openzfs.org/wiki/Main_Page) - [GitHub](https://github.com/openzfs/zfs)

@@ -1,21 +1,36 @@
 # Service Software
 
-## → [Audio](service/_audio.md)
-I am only aware of PulseAudio and PipeWire, but their maybe others, 
-other extra audio APIs, like ALSA and JACK. 
+## Hardware
+
+### → [Audio](services/_audio.md)
+I am only aware of PulseAudio and PipeWire; but their maybe others. Other audio APIs, include ALSA and JACK. 
 
 ---
 
-## → [Wine](/software/service/wine.md)
+## Cooling
+
+### [Cooler Control](services/cooler-control.md)
+> CoolerControl is a feature-rich cooling device control application for Linux. It has a system daemon
+> for background device management, as well as a GUI to expertly customize your settings.
+> For modulating CPU Water Cooler Pump and Fan(s), and GPU Heatsink Fan(s) speeds.
+> Provides both web and desktop UIs.
+
+---
+
+## Platform Transaltion
+
+### → [Wine](/software/services/wine.md)
 - Wine is not an emulator (at least not on i386/AMD64 CPU machines), or a container or hypervisor service,
-instead it is a service and console applications providing OS API translation layer for running Windows software.
+instead it is a service and console applications providing a translation layer allowing Windows software to run on Linux.
 - Wine can't run Windows services!
+- There does seem to be some just-in-time compilation/provisioning going on the background. 
+- The translation can be imperfect, but can work surprisingly well.
 - It can access serial ports, including USB ones, but it annoyingly requires registry editing, with no GUI support for this!
 - Annoyingly USB port support, which probably needs exclusive access, would still seem to be missing, despite suggestions otherwise!
 
 ---
 
-## → [Remote Control](service/_remote-control.md)
+## → [Remote Control](services/_remote-control.md)
 
 Network services, which may provide a Web UI, or just a network API, used for remote
 management/monitoring of machines, not just for servers, e.g.
@@ -23,11 +38,13 @@ management/monitoring of machines, not just for servers, e.g.
 
 ---
 
-## → [Container](service/_container.md)
+## → [Container](services/_container.md)
+
+Stuff like Docker, Podman, and Kubernetes for running OCI images.
 
 ---
 
-## → [Hypervisor (type 2) ~ Virtual Machine ~ Virtualisation](service/_hypervisor.md) 
+## → [Hypervisor (type 2) ~ Virtual Machine ~ Virtualisation](services/_hypervisor.md) 
 
 Server software, which allows running software an OS in an isolated environment,
 this can allow injection of access to some system resources e.g.

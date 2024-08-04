@@ -14,7 +14,7 @@ From the Ubuntu repository of a QT GUI version, so the extension pack was probab
 |--------------|--------------------|
 | 22           | 7.0.16             |
 
-- I could run isos for earlier Linux Mint versions to see, which VirtualBox versions,
+- I could run iso's for earlier Linux Mint versions to see, which VirtualBox versions,
   they provide, but I doubt that it would be worth it for me.
 
 1. Install using apt

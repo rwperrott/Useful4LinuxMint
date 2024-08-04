@@ -13,8 +13,8 @@ sudo apt update && sudo apt install github-desktop
 ## Options
 
 ### Advanced
-Untick "Usage" [] bla
+Un-tick "Usage" [] bla
 
 ## Accounts
-Sign in with Github.com webpage, and ensure that the browse does have excessive security present, so that it works!
+Sign in with GitHub.com webpage, and ensure that the browse does have excessive security present, so that it works!
 I prefer the mobile GitHub App for 2FA.
