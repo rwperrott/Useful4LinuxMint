@@ -1,6 +1,6 @@
 # Useful4LinuxMint - Software - Console
 
-## → [docker]
+## → [docker](../todo.md)
 **TODO: find proper stuff for only docker CLI command and its extensions.**
 
 ## → [flatpak](console/flatpak.md)
@@ -21,3 +21,7 @@ An encrypted secrets store.
 ## → [pass-otp](console/pass-otp.md) 
 
 A pass extension for managing one-time-password (OTP) tokens
+
+## → [pkexec](console/pkexec.md)
+
+A Desktop GUI prompt alternative to `sudo`.
