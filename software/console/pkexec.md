@@ -11,11 +11,11 @@ An alternative to sudo, especially when you want a root password prompt as a Des
 or because you can't use sudo because the current user lacks Administrator permissions,
 as I discovered for a user on 32-bit `Debian 12`, on an ancient netbook. 
 
-Beware: I discovered that some executed PROGRAM, somehow, loss root access so misbehave, but don't when run via sudo!
+Beware: I discovered that some executed stuff doesn't behave the same as via sudo, so misbehaves!
 
 ## Installation
 
-This may not be necessary, because it may already be a default part of your Linux distribution.
+- Not necessary, because a default part of the Mint install.
 
 ## Usage
 
