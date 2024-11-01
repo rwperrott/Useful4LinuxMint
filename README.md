@@ -46,3 +46,7 @@ Useful bookmarks and notes for my Linux Mint installs
 ### → [Console](software/_console.md)
 
 ### → [Desktop](software/_desktop.md)
+
+## Other Linux Software Lists
+
+### -> [luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
