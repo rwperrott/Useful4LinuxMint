@@ -19,7 +19,7 @@ Understanding the basic operations of dpkg is essential for any Linux user. This
 
 The basic syntax of dpkg comprises two parameters:
 
-dpkg [options] [package.deb|package-name]
+`dpkg [options] [package.deb|package-name]`
 
 Now that we’ve seen the syntax, let’s understand these parameters:
 
@@ -27,15 +27,17 @@ Now that we’ve seen the syntax, let’s understand these parameters:
     [package.deb|package-name]: packages to be applied to the command
 
 Let’s see a breakdown of the most commonly used commands and their functions:
-Options 	Description
--i 	 Install a package
--r 	 Remove a package
--l 	 list of installed packages
--s 	 Show information about a specific installed package
--C 	 Check for broken dependencies
--L 	 List files installed by a package
--P 	 Purge package configuration files
--A 	 Configure all unpacked but unconfigured packages
+
+| Options | 	Description                                          |
+|---------|-------------------------------------------------------|
+| -i      | 	 Install a package                                   |
+| -r      | 	 Remove a package                                    |
+| -l      | 	 list of installed packages                          |
+| -s      | 	 Show information about a specific installed package |
+| -C      | 	 Check for broken dependencies                       |
+| -L      | 	 List files installed by a package                   |
+| -P      | 	 Purge package configuration files                   |
+| -A      | 	 Configure all unpacked but unconfigured packages    |
 
 Next, we proceed to apply this command to deb packages in practice.
 ### 3. Basic Usage
@@ -291,7 +293,7 @@ The dpkg database is located under/var/lib/dpkg; the "status" file contains the 
 
 This section is about wpkg, a look-alike of the debian dpkg packager. For WPKG, an unrelated packager for Microsoft Windows, see WPKG (software).
 
-wpkg was created as a dpkg look-alike that would run under the Microsoft Windows operating system.[17] It subsequently evolved to include functionality similar to parts of the APT suite, improved repository management, distribution management and was ported to Linux and Unix-like systems, including Cygwin, Mingw32, macOS, OpenSolaris and FreeBSD.[18][19] It retains .deb file format compatibility[20] and is supplied with the ready-to-use executable wpkg.exe. As of March 2024, the most recent release of the software was in 2015.[18]
+wpkg was created as a dpkg look-alike that would run under the Microsoft Windows operating system. It subsequently evolved to include functionality similar to parts of the APT suite, improved repository management, distribution management and was ported to Linux and Unix-like systems, including Cygwin, Mingw32, macOS, OpenSolaris and FreeBSD. It retains .deb file format compatibility and is supplied with the ready-to-use executable wpkg.exe. As of March 2024, the most recent release of the software was in 2015.
 
 ## [The dpkg Command in Linux - A Beginners Reference](https://www.digitalocean.com/community/tutorials/dpkg-command-in-linux)
 - (partially trimmed of waffle and poor grammar)
