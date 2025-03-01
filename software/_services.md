@@ -17,7 +17,7 @@ I am only aware of PulseAudio and PipeWire; but their maybe others. Other audio 
 
 ---
 
-## Platform Transaltion
+## Platform Translation
 
 ### → [Wine](/software/services/wine.md)
 - Wine is not an emulator (at least not on i386/AMD64 CPU machines), or a container or hypervisor service,
@@ -35,6 +35,18 @@ instead it is a service and console applications providing a translation layer a
 Network services, which may provide a Web UI, or just a network API, used for remote
 management/monitoring of machines, not just for servers, e.g.
 - Allowing safe shutdown if a desktop machine Desktop UI becomes unusable; safer than hard reset or power-off!
+
+## → [Copilot] NOT, because updates break!
+
+## → [Webmin]
+
+---
+
+## → [Remote Desktop]
+
+- VNC and RDP still have support consistency issues on Linux, so not recommended!
+
+### NoMachine
 
 ---
 

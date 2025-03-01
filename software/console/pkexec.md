@@ -5,13 +5,13 @@
 > If PROGRAM is not specified, the default shell will be run.
 > 
 > If username is not specified, then the program will be executed as the administrative
-super user, `root`.
+superuser, `root`.
 
 An alternative to sudo, especially when you want a root password prompt as a Desktop GUI prompt, 
 or because you can't use sudo because the current user lacks Administrator permissions,
 as I discovered for a user on 32-bit `Debian 12`, on an ancient netbook. 
 
-Beware: I discovered that some executed stuff doesn't behave the same as via sudo, so misbehaves!
+Beware: I discovered that some executables, which work fine with sudo, don't work, or don't work as well as via sudo!
 
 ## Installation
 

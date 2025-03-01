@@ -3,7 +3,8 @@
 - TODO: may need more tidy up or content.
 
 Alien is a computer program that converts between different Linux package formats, created by Joey Hess and presently maintained by Kyle Barry.[1]
-Features
+
+## Features
 
 Alien supports conversion between Linux Standard Base (LSB), LSB-compliant .rpm packages,[2] .deb, Stampede (.slp), Solaris (.pkg) and Slackware (.tgz, .txz, .tbz, .tlz)[3] packages. It is also capable of automatically installing the generated packages, and can try to convert the installation scripts included in the archive as well. Automatic installation should be used with caution since Linux distributions may vary significantly from one another, and using install scripts automatically converted from an Alien format may break the system.
 Usage
@@ -29,7 +30,7 @@ $ alien --to-deb ~/${filename}.tgz # Tgz to Deb
 $ alien -r ${filename}.deb
 ```
 
-It might require Super User Privileges to run the command. If it does then proceed with the commands below
+It might require `root` user or permissions to run the command. If it does then proceed with the commands below.
 ```shell
 $ sudo alien ${filename}.rpm # Rpm to Deb
 

@@ -5,9 +5,28 @@
 A GUI Frontend provided by the installer of the Cooler Control service,
 a service, which modulate CPU Water Cooler Pump and Fan(s), and GPU Heatsink Fan(s) speeds.
 
+## → Double Commander KDE
+
+This seems to go wrong less than most of the other Desktop specific file managers [1],
+and seems to provide some better functionality.
+1. Most disappointingly so for Xfce Thunar, e.g. freezing!
+
+## → Double Commander QT
+
+This seemed less good than `Double Commander KDE`;
+- Uses dated QT5
+- Has rendering bugs, which squish some controls in modal child windows, making them unusable. 
+
+## → MATE Terminal (mate-terminal)
+
+- My favourite terminal Useful, because it can store profiles for new tabs or windows:
+  - Lots of settings can be customised.
+  - Can run custom commands, with a custom title, which can be more useful than aliases.
+
 ## → [Menu Libre](desktop/peazip.md)
 
-An Editor for the _current_ desktop menu and all of the *.desktop files in  
+An Editor for the _current_ desktop menu and all the *\.desktop files in other directories.
+- It is annoying that it doesn't request root access support to allow editing of shared \.desktop files!
 
 ## → [PeaZip](desktop/peazip.md)
 
@@ -22,9 +41,9 @@ A QT GUI for the [pass](https://www.passwordstore.org/) encrypted secrets store
 
 ## [Desktop Menu Specification](https://www.freedesktop.org/wiki/Specifications/menu-spec/)
 
-The company ShinyThings Inc. has developed an application named WebMirror 1.0 and would like to add its own submenu to the system menus consisting of a WebMirror menu item and a WebMirror Admin Tool menu item. The company will use "shinythings" as its vendor id. For the purpose of this example all menu items will be available in two languages, English and Dutch. The language code for Dutch is nl.
+The company ShinyThings Inc. has developed an application named WebMirror 1.0 and would like to add its own submenu to the system menus consisting of a WebMirror menu item, and a WebMirror Admin Tool menu item. The company will use "shinythings" as its vendor id. For the purpose of this example all menu items will be available in two languages, English and Dutch. The language code for Dutch is nl.
 
-First the company needs to create two .desktop files that describe the two menu items:
+First the company needs to create two \.desktop files that describe the two menu items:
 
 - datadir/applications/shinythings-webmirror.desktop:
 ```ini
@@ -52,7 +71,7 @@ Name=WebMirror Admin Tool
 Name[nl]=WebSpiegel Administratie Tool
 ```
 
-A .directory file needs to be installed to provide a title and icon for the sub-menu itself:
+A \.directory file needs to be installed to provide a title and icon for the sub-menu itself:
 - datadir/desktop-directories/shinythings-webmirror.directory:
 ```ini
 [Desktop Entry]
@@ -64,7 +83,7 @@ Name=WebMirror
 Name[nl]=WebSpiegel
 ```
 
-And finally, a .menu file needs to be provided that links it all together:
+And finally, a .menu file needs to be provided, that links it all together:
 
 - sysconfdir/menus/application-merged/shinythings-webmirror.menu:
 ```xml

@@ -2,7 +2,7 @@
 
 A pass extension for managing one-time-password (OTP) tokens.
 
-Github pages provides the syntax and usage examples.
+The GitHub pages provide the syntax and usage examples.
 
 ## Installation options:
 
