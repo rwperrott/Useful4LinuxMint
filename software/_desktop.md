@@ -1,9 +1,13 @@
 # Desktop Software
 
+## → [Btrfs Assistant](desktop/btrfs-assistant.md)
+
+A far easier way to do common BTRFS disk management tasks on a desktop Linux.
+
 ## → [CoolerControl](services/cooler-control.md)
 
 A GUI Frontend provided by the installer of the Cooler Control service,
-a service, which modulate CPU Water Cooler Pump and Fan(s), and GPU Heatsink Fan(s) speeds.
+a service, which modulates the speed of CPU Water Cooler Pump and Fan(s), and GPU Heatsink Fan(s) speeds.
 
 ## → Double Commander KDE
 
