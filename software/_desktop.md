@@ -9,11 +9,12 @@ A far easier way to do common BTRFS disk management tasks on a desktop Linux.
 A GUI Frontend provided by the installer of the Cooler Control service,
 a service, which modulates the speed of CPU Water Cooler Pump and Fan(s), and GPU Heatsink Fan(s) speeds.
 
-## → Double Commander KDE
+## → [Double Commander](desktop/double-commander.md)
 
-This seems to go wrong less than most of the other Desktop specific file managers [1],
-and seems to provide some better functionality.
-1. Most disappointingly so for Xfce Thunar, e.g. freezing!
+This seems to go wrong less than most of the other Desktop specific file managers:
+- They can stall.
+- Annoyingly lack functionality they should provide, like filtering, sane progress, and some native archive support!
+- Their plugins for them can do retarded stuff, like change a default application just to extract archives (Thunar)!
 
 ## → Double Commander QT
 
