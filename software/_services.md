@@ -32,44 +32,13 @@ instead it is a service and console applications providing a translation layer a
 
 ## → [Remote Control](services/_remote-control.md)
 
-Network services, which may provide a Web UI, or just a network API, used for remote
-management/monitoring of machines, not just for servers, e.g.
-- Allowing safe shutdown if a desktop machine Desktop UI becomes unusable; safer than hard reset or power-off!
-
-## → [Copilot](services/cockpit.md) 👎
-
-I've stopped using this because of WTF service failures, which I couldn't fix!
-- Uninstallation was a disaster!
-- Purge does not roll its configuration back to normal locations, so lots of junk directories are left, e.g:
-  - It fails to push its Samba included configuration back to the normal Samba configuration files.
-  - It fails to convert samba registry back to file based configuration, so this has to be done manually!
-
-## → [Webmin](https://webmin.com/)
-
-Webmin is a web-based system administration tool for Unix-like servers, and services with about 1,000,000 yearly installations worldwide. Using it, it is possible to configure operating system internals, such as users, disk quotas, services or configuration files, as well as modify, and control open-source apps, such as **BIND** DNS Server, **Apache** HTTP Server, **PHP**, **MySQL**, and many more.
-
-- My replacement for `Copilot`.
-- Cons:
-  - No usable ZFS support.
-  - No BTRFS support found so far.
+Access a remote machine via an administration webserver, hosted by it.
 
 ---
 
-## → [Remote Desktop]
+## → [Remote Desktop](services/_remote-desktop.md)
 
-- VNC and RDP often have support consistency issues on Linux, so are not recommended!
-
-### → [NoMachine](https://www.nomachine.com/)
-
-More CPU intensive than VNC or RDP, but just-works across multiple OS.
-- Server was easy to get working on Linux, unlike VNC and RDP.
-- A working android client exists, but is less powerful than desktop OS clients, has some bugs.
-- Feature rich; possibly better than RDP, e.g.!
-  - Servers advertise on LAN, so less connection setup needed. 
-  - The ability to mount client directories on a target machine.
-  - The ability to mount target directories on a client machine.
-- Cons
-  - Server and target server configuration could be better.
+Access a remote machine's desktop, for viewing or GUI based control. 
 
 ---
 

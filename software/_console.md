@@ -19,7 +19,7 @@ A much better console editor than `nano`, which supports mouse navigation.
 
 A better, more colourful, and faster apt/apt-get.
 
-## [nano](https://www.nano-editor.org/)
+## → [nano](https://www.nano-editor.org/)
 
 A usable console editor commonly installed, by default, but not as good as `micro`.
 
@@ -28,11 +28,13 @@ An encrypted secrets store.
 
 ## → [pass-otp](console/pass-otp.md) 
 
-A pass extension for managing one-time-password (OTP) tokens
+A pass extension for managing one-time-password (OTP) tokens.
 
 ## → [pkexec](console/pkexec.md)
 
 A Desktop GUI prompt alternative to `sudo`.
+
+## → [podman](../todo.md) - TODO: add this, because docker may not be the best container host.
 
 ## → [tldr](console/tldr.md)
 

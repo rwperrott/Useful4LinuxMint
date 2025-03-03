@@ -1,3 +1,4 @@
 # Cinnamon
 
-A fork of the Gnome2 desktop environment, but my least favourite for Linux Mint.
+A fork of the Gnome2 desktop environment.
+- My least favourite desktop for Linux Mint.
