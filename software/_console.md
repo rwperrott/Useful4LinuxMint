@@ -33,3 +33,12 @@ A pass extension for managing one-time-password (OTP) tokens
 ## → [pkexec](console/pkexec.md)
 
 A Desktop GUI prompt alternative to `sudo`.
+
+## → [tldr](console/tldr.md)
+
+Prints 'cheatsheet' usage example lines for a command.
+
+## → [topgrade](console/topgrade.md)
+
+A many thing (Rust) upgrading tool, for apt, am, tldr, etc.
+
